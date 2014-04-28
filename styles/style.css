@@ -1,0 +1,188 @@
+/*************************** common ***************************/
+*, *:before, *:after {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+ }
+
+ .pull-left {
+   float: left;
+ }
+
+ .pull-right {
+   float: right;
+ }
+
+ .ultralight {
+  font-weight: 100;
+ }
+
+ .regular {
+  font-weight: 400;
+ }
+
+ .bold {
+  font-weight: 600;
+ }
+
+ .demibold {
+  font-weight: 500;
+ }
+
+.container {
+  font-family: 'Avenir Next', sans-serif;
+  color: #fff;
+}
+
+/*************************** landing-page ***************************/
+
+.landing {
+  padding: 38px;
+  background: url(../images/crowd.png) no-repeat center center;
+  background-size: cover;
+  text-align: center;
+  height: 800px;
+}
+
+.landing--header {
+  font-size: 59px;
+  margin: 0 0 203px 0;
+}
+
+.landing--keywords {
+  font-size: 41px;
+  margin: 0;
+}
+
+.landing--horizontal-line {
+  width: 80px;
+  margin: 22px auto;
+}
+
+.landing--small-text1 {
+  font-size: 16px;
+  margin: 0 0 60px 0;
+}
+
+.landing--small-text2 {
+  font-size: 16px;
+  margin: 27px 0;
+}
+
+.landing--subscribe {
+  font-size: 20px;
+  height: 48px;
+  background: transparent;
+  border: 2px #fff solid;
+}
+
+.landing--subscribe:focus {
+  outline: none;
+}
+
+.landing--subscribe.email {
+  padding-left: 20px;
+  line-height: 30px;
+  width: 400px;
+}
+
+.landing--subscribe.button {
+  width: 120px;
+}
+
+/*************************** intro-page ***************************/
+
+.intro--header {
+  margin: 66px 0 88px;
+  font-size: 121px;
+  text-align: center;
+}
+
+.intro--header.top {
+  color: #000;
+}
+
+.intro--header.bottom {
+  margin: 0 0 90px 0;
+  text-shadow:
+    -2px -2px 0 #d8d8d8,
+    2px -2px 0 #d8d8d8,
+    -2px 2px 0 #d8d8d8,
+    2px 2px 0 #d8d8d8;
+}
+
+.intro--para {
+  font-size: 12px;
+  color: #000;
+  width: 30%;
+  margin: 0 80px 76px;
+}
+
+/*************************** map-page ***************************/
+
+.map {
+  background: url(../images/blueprint.png) no-repeat center center;
+  background-size: cover;
+  position: relative;
+  height: 800px;
+}
+
+.map--location {
+  width: 200px;
+  font-weight: 400;
+  font-size: 12px;
+  position: absolute;
+}
+
+.map--location-header {
+  font-weight: 400;
+  font-size: 28px;
+  font-weight: normal;
+}
+
+.map--location.music {
+  left: 300px;
+}
+
+.map--location.workshops {
+  left: 300px;
+  top: 250px;
+}
+
+.map--location.keynote {
+  left: 600px;
+}
+
+.map--location.venture {
+  top: 300px;
+  left: 600px;
+}
+
+/*************************** speakers-page ***************************/
+
+.speakers {
+  -webkit-columns: 3;
+  -moz-columns: 3;
+  columns: 3;
+  color: #000;
+  font-size: 12px;
+  width: 90%;
+  min-width: 1133px;
+  margin: 0 auto;
+}
+
+.speakers--header {
+  text-align: center;
+  font-weight: normal;
+  font-size: 28px;
+  color: #000;
+}
+
+.speakers h3 {
+  font-size: 18px;
+}
+
+.speakers--photo {
+  width: 353px;
+  height: 213px;
+}
