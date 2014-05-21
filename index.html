@@ -10,7 +10,7 @@
   <div class="container">
 
     <div class="landing">
-      <h1 class="landing--header ultralight">commit__</h1>
+      <h1 class="landing--header ultralight">commit<span class="blink">__</span></h1>
       <h2 class="landing--keywords regular">
         tech, music, keynotes, ventures,
       </h2>
@@ -112,8 +112,15 @@
 
   </div>
 
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
-  <script src="./scripts/main.js" type="text/javascript"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
+<script src="./javascript/email-subscriptions.js" type="text/javascript"></script>
+<script src="./javascript/blink.js" type="text/javascript"></script>
 
+<script type="text/javascript">
+$(document).ready(function() {
+  /** Blink element class .blink */
+  $('.blink').blink();
+});
+</script>
 </body>
 </html>
