@@ -3,6 +3,13 @@ $('#subscribe').submit(function(event) {
 
   event.preventDefault();
 
+  // simple email validation
+  if (!/^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/.test($('#email').val())) {
+
+    return alert('Please enter a valid email address.');
+
+  }
+
   // i use the always function because the post request is failing due to cross scripting browser blocks
   // the data still arrives magically in the google spreadsheet though
 
